@@ -1,0 +1,82 @@
+body{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: small;
+	background-image: linear-gradient(to right, #32CD32, #ADFF2F);
+    /*background: url(background.jpg) top left;*/
+    margin: 0px;
+    }
+h1{
+    font-size: 120%;
+    color: #954b4b;
+    }
+
+h2{   
+    font-size: 110%;
+    }
+
+form{
+    display: table;
+    padding: 20px;
+    margin-top: 30px;
+    border: thin dotted #006400;
+    background-color: lightgreen;
+    font-weight: bold;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    } 
+ 
+input,form{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    }
+
+input.zaliv{
+    background: lightgray;
+    height: 20px;
+    }
+
+input:invalid{
+    border: 1px dashed red;
+    }
+
+input:valid{
+    border: 1px solid green;
+    }
+
+input#button{
+    width: 255px;
+    height: 30px;
+    background-image: linear-gradient(to right, #00FA9A, #7FFF00);
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    align: center;
+    }
+
+fieldset{
+    padding:25px;
+    }
+
+div.tableRow {
+    display: table-row;      
+    }
+
+div.tableRow p{
+    display: table-cell;     
+    vertical-align: top;
+    padding: 10px;
+    }
+
+div.tableRow p:first-child {
+    text-align: right;
+    }
+
+marquee.special{ 
+    direction: right;
+    behavior: alternate;
+    scrollamount: 2;
+    } 
+
+
